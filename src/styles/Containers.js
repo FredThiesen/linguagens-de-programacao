@@ -1,26 +1,33 @@
 import styled from "styled-components"
 
+export const Header = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 10%;
+	width: 100%;
+	background: black;
+`
 export const Body = styled.div`
 	width: 100vw;
 	height: 100vh;
-	background: #f0f0f0;
+	background: linear-gradient(to bottom, rgb(83, 105, 148), rgb(41, 46, 73));
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	overflow: hidden;
-`
 
-export const MainContainer = styled.div`
-	display: flex;
+	align-items: center;
 	flex-direction: column;
-	width: 90%;
-	height: 100%;
 `
 
 export const Content = styled.div`
+	padding: 40px 0px;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding: 65px;
-	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	width: 70%;
+	height: 85%;
+	flex-direction: column;
+`
+export const CodeContainer = styled.div`
+	max-height: 80%;
+	width: 100%;
 `
