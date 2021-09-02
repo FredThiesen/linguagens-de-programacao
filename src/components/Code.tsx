@@ -1,9 +1,8 @@
-import React from "react"
 import CodeMirror from "@uiw/react-codemirror"
 import "codemirror/keymap/sublime"
 import "codemirror/theme/dracula.css"
+import React from "react"
 import { CodeContainer } from "../styles/Containers"
-import { Title } from "../styles/Title"
 
 interface CodeProps {
 	value: string

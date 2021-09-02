@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import { Button } from "../styles/Buttons"
 import { Body, Content, Header } from "../styles/Containers"
 import { Title } from "../styles/Title"

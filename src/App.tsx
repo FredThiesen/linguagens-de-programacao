@@ -1,8 +1,7 @@
 import React from "react"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { ClassActivity, Home } from "./screens"
 
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
-
-import { Home, ClassActivity } from "./screens"
 function App() {
 	return (
 		<>

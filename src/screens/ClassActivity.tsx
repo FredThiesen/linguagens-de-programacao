@@ -1,9 +1,9 @@
 import React from "react"
-import { Link, Redirect, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
+import { activity as code } from "../codes/classActivity"
 import { Code } from "../components/Code"
 import { BackButton } from "../styles/Buttons"
 import { Body, Content, Header } from "../styles/Containers"
-import { activity as code } from "../codes/classActivity"
 import { Title } from "../styles/Title"
 export default function ClassActivity() {
 	let history = useHistory()
