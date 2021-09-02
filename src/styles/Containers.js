@@ -6,12 +6,13 @@ export const Header = styled.div`
 	justify-content: space-evenly;
 	height: 10%;
 	width: 100%;
-	background: black;
+	background: #5cdb95;
 `
 export const Body = styled.div`
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to bottom, rgb(83, 105, 148), rgb(41, 46, 73));
+	background: #5cdb95;
+	/* background: linear-gradient(to bottom, rgb(83, 105, 148), rgb(41, 46, 73)); */
 	display: flex;
 
 	align-items: center;
