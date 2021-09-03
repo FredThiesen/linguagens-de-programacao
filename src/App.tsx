@@ -5,7 +5,7 @@ import { ClassActivity, Home, ImperativeLanguage } from "./screens"
 function App() {
 	return (
 		<>
-			<Router>
+			<Router basename="/linguagens-de-programacao">
 				<Switch>
 					<Route path="/" exact>
 						<Home />
