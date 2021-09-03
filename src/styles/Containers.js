@@ -32,3 +32,9 @@ export const CodeContainer = styled.div`
 	max-height: 80%;
 	width: 100%;
 `
+export const Row = styled.div`
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+`

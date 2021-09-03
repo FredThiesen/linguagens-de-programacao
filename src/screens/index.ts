@@ -1,3 +1,4 @@
 import Home from "./Home"
 import ClassActivity from "./ClassActivity"
-export { Home, ClassActivity }
+import ImperativeLanguage from "./ImperativeLanguage"
+export { Home, ClassActivity, ImperativeLanguage }

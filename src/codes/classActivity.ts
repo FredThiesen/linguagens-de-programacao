@@ -19,7 +19,7 @@ class Aluno extends Pessoa {
 	}
 
 	dizerAlgo(mensagem: string) {
-		return this.nome + ' disse: ' mensagem
+		return this.nome + ' disse: ' + mensagem
 	}
 	multiplicar(fator1: number, fator2: number) {
 		return fator1 * fator2

@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import { ClassActivity, Home } from "./screens"
+import { ClassActivity, Home, ImperativeLanguage } from "./screens"
 
 function App() {
 	return (
@@ -12,6 +12,9 @@ function App() {
 					</Route>
 					<Route path="/ClassActivity" exact>
 						<ClassActivity />
+					</Route>
+					<Route path="/ImperativeLanguage" exact>
+						<ImperativeLanguage />
 					</Route>
 				</Switch>
 			</Router>

@@ -21,14 +21,14 @@ export const Button = styled.button`
 		transition: 200ms ease-in-out;
 	}
 `
-export const BackButton = styled.button`
+export const SmallButton = styled.button`
 	border: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #05386b;
-	height: 1.9rem;
-	width: 1rem;
+	height: 1.9rem auto;
+
 	color: #edf5e1;
 	font-size: 1.3rem;
 	padding: 10px 60px;

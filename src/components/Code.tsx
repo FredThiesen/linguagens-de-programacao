@@ -6,6 +6,7 @@ import { CodeContainer } from "../styles/Containers"
 
 interface CodeProps {
 	value: string
+	mode: string
 }
 export const Code = (props: CodeProps) => {
 	return (
@@ -15,7 +16,8 @@ export const Code = (props: CodeProps) => {
 				options={{
 					theme: "dracula",
 					keyMap: "sublime",
-					mode: "TypeScript",
+					mode: `${props.mode}`,
+					readOnly: "true",
 				}}
 			/>
 		</CodeContainer>

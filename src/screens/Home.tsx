@@ -1,13 +1,13 @@
 import React from "react"
 import { useHistory } from "react-router-dom"
 import { Button } from "../styles/Buttons"
-import { Body, Content, Header } from "../styles/Containers"
+import { Body, Content, Header, Row } from "../styles/Containers"
 import { Title } from "../styles/Title"
 
 export default function Home() {
 	let history = useHistory()
-	function toClassActivity() {
-		history.push("/ClassActivity")
+	function toClassActivity(path: string) {
+		history.push(path)
 	}
 	return (
 		<>
@@ -15,9 +15,20 @@ export default function Home() {
 				<Header></Header>
 				<Content>
 					<Title>Atividades</Title>
-					<Button onClick={() => toClassActivity()}>
-						Classes Abstratas
-					</Button>
+					<Row>
+						<Button
+							onClick={() =>
+								toClassActivity("/ImperativeLanguage")
+							}
+						>
+							Linguagens Imperativas
+						</Button>
+						<Button
+							onClick={() => toClassActivity("/ClassActivity")}
+						>
+							Classes Abstratas
+						</Button>
+					</Row>
 				</Content>
 			</Body>
 		</>
